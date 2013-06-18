@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FD307E1177001E9005C285E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD307E0177001E9005C285E /* UIKit.framework */; };
+		0FD307E3177001E9005C285E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD307E2177001E9005C285E /* Foundation.framework */; };
+		0FD307E5177001E9005C285E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD307E4177001E9005C285E /* CoreGraphics.framework */; };
+		0FD307EB177001E9005C285E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FD307E9177001E9005C285E /* InfoPlist.strings */; };
+		0FD307ED177001E9005C285E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD307EC177001E9005C285E /* main.m */; };
+		0FD307F1177001E9005C285E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD307F0177001E9005C285E /* AppDelegate.m */; };
+		0FD307F3177001E9005C285E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FD307F2177001E9005C285E /* Default.png */; };
+		0FD307F5177001E9005C285E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FD307F4177001E9005C285E /* Default@2x.png */; };
+		0FD307F7177001E9005C285E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FD307F6177001E9005C285E /* Default-568h@2x.png */; };
+		0FD307FA177001E9005C285E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD307F9177001E9005C285E /* ViewController.m */; };
+		0FD307FD177001E9005C285E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FD307FB177001E9005C285E /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FD307DD177001E9005C285E /* WeiPhoneTB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiPhoneTB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD307E0177001E9005C285E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FD307E2177001E9005C285E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FD307E4177001E9005C285E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FD307E8177001E9005C285E /* WeiPhoneTB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeiPhoneTB-Info.plist"; sourceTree = "<group>"; };
+		0FD307EA177001E9005C285E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FD307EC177001E9005C285E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FD307EE177001E9005C285E /* WeiPhoneTB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeiPhoneTB-Prefix.pch"; sourceTree = "<group>"; };
+		0FD307EF177001E9005C285E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FD307F0177001E9005C285E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FD307F2177001E9005C285E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0FD307F4177001E9005C285E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0FD307F6177001E9005C285E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0FD307F8177001E9005C285E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0FD307F9177001E9005C285E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0FD307FC177001E9005C285E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FD307DA177001E9005C285E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD307E1177001E9005C285E /* UIKit.framework in Frameworks */,
+				0FD307E3177001E9005C285E /* Foundation.framework in Frameworks */,
+				0FD307E5177001E9005C285E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FD307D4177001E9005C285E = {
+			isa = PBXGroup;
+			children = (
+				0FD307E6177001E9005C285E /* WeiPhoneTB */,
+				0FD307DF177001E9005C285E /* Frameworks */,
+				0FD307DE177001E9005C285E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FD307DE177001E9005C285E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FD307DD177001E9005C285E /* WeiPhoneTB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FD307DF177001E9005C285E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FD307E0177001E9005C285E /* UIKit.framework */,
+				0FD307E2177001E9005C285E /* Foundation.framework */,
+				0FD307E4177001E9005C285E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FD307E6177001E9005C285E /* WeiPhoneTB */ = {
+			isa = PBXGroup;
+			children = (
+				0FD307EF177001E9005C285E /* AppDelegate.h */,
+				0FD307F0177001E9005C285E /* AppDelegate.m */,
+				0FD307F8177001E9005C285E /* ViewController.h */,
+				0FD307F9177001E9005C285E /* ViewController.m */,
+				0FD307FB177001E9005C285E /* ViewController.xib */,
+				0FD307E7177001E9005C285E /* Supporting Files */,
+			);
+			path = WeiPhoneTB;
+			sourceTree = "<group>";
+		};
+		0FD307E7177001E9005C285E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FD307E8177001E9005C285E /* WeiPhoneTB-Info.plist */,
+				0FD307E9177001E9005C285E /* InfoPlist.strings */,
+				0FD307EC177001E9005C285E /* main.m */,
+				0FD307EE177001E9005C285E /* WeiPhoneTB-Prefix.pch */,
+				0FD307F2177001E9005C285E /* Default.png */,
+				0FD307F4177001E9005C285E /* Default@2x.png */,
+				0FD307F6177001E9005C285E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FD307DC177001E9005C285E /* WeiPhoneTB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FD30800177001E9005C285E /* Build configuration list for PBXNativeTarget "WeiPhoneTB" */;
+			buildPhases = (
+				0FD307D9177001E9005C285E /* Sources */,
+				0FD307DA177001E9005C285E /* Frameworks */,
+				0FD307DB177001E9005C285E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeiPhoneTB;
+			productName = WeiPhoneTB;
+			productReference = 0FD307DD177001E9005C285E /* WeiPhoneTB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FD307D5177001E9005C285E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ibokan;
+			};
+			buildConfigurationList = 0FD307D8177001E9005C285E /* Build configuration list for PBXProject "WeiPhoneTB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FD307D4177001E9005C285E;
+			productRefGroup = 0FD307DE177001E9005C285E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FD307DC177001E9005C285E /* WeiPhoneTB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FD307DB177001E9005C285E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD307EB177001E9005C285E /* InfoPlist.strings in Resources */,
+				0FD307F3177001E9005C285E /* Default.png in Resources */,
+				0FD307F5177001E9005C285E /* Default@2x.png in Resources */,
+				0FD307F7177001E9005C285E /* Default-568h@2x.png in Resources */,
+				0FD307FD177001E9005C285E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FD307D9177001E9005C285E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD307ED177001E9005C285E /* main.m in Sources */,
+				0FD307F1177001E9005C285E /* AppDelegate.m in Sources */,
+				0FD307FA177001E9005C285E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FD307E9177001E9005C285E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FD307EA177001E9005C285E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FD307FB177001E9005C285E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FD307FC177001E9005C285E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FD307FE177001E9005C285E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FD307FF177001E9005C285E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FD30801177001E9005C285E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeiPhoneTB/WeiPhoneTB-Prefix.pch";
+				INFOPLIST_FILE = "WeiPhoneTB/WeiPhoneTB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FD30802177001E9005C285E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeiPhoneTB/WeiPhoneTB-Prefix.pch";
+				INFOPLIST_FILE = "WeiPhoneTB/WeiPhoneTB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FD307D8177001E9005C285E /* Build configuration list for PBXProject "WeiPhoneTB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FD307FE177001E9005C285E /* Debug */,
+				0FD307FF177001E9005C285E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FD30800177001E9005C285E /* Build configuration list for PBXNativeTarget "WeiPhoneTB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FD30801177001E9005C285E /* Debug */,
+				0FD30802177001E9005C285E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FD307D5177001E9005C285E /* Project object */;
+}
